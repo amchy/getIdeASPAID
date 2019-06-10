@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modulePartners {
+  background-image: linear-gradient(140deg, #f7cfcf 6.52%, #ffffff 6.52%, #ffffff 50%, #f7cfcf 50%, #f7cfcf 56.52%, #ffffff 56.52%, #ffffff 100%);
+background-size: 35.78px 30.02px;
+  /*animation: widen 10s linear alternate infinite;*/
+}
+
+.stripe-1 {
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+
+/*@keyframes widen {
+  100% {
+    width: 100%;
+  }
+}*/
+
+.influencercta-100 {
+  margin-top: 100px;
+  padding-left: 8%;
+  padding-top: 7%;
+}
+.influencercol-md-4{
+    padding-bottom:20px;
+}
+
+.influencerwhite {
+  color: #fff !important;
+}
+.influencermt{float: left;margin-top: -20px;padding-top: 20px;}
+.influencerbg-blue-ui {
+  background-color: #708198 !important;
+}
+figure img{width:300px;}
+
+#blogCarousel {
+  padding-bottom: 100px;
+}
+
+.influencerblog .influencercarousel-indicators {
+  left: 0;
+  top: -50px;
+  height: 50%;
+}
+
+
+/* The colour of the indicators */
+
+.influencerblog .influencercarousel-indicators li {
+  background: #708198;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.influencerblog .influencercarousel-indicators .influenceractive {
+  background: #0fc9af;
+}
+
+
+
+
+.influenceritem-carousel-blog-block {
+  outline: medium none;
+  padding: 15px;
+}
+
+.influenceritem-box-blog {
+  border: 1px solid #dadada;
+  text-align: center;
+  z-index: 4;
+  padding: 20px;
+}
+
+.influenceritem-box-blog-image {
+  position: relative;
+}
+
+.influenceritem-box-blog-image figure img {
+  width: 100%;
+  height: auto;
+}
+
+.influenceritem-box-blog-date {
+  position: absolute;
+  z-index: 5;
+  padding: 4px 20px;
+  top: -20px;
+  right: 8px;
+  background-color: #41cb52;
+}
+
+.influenceritem-box-blog-date span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.influenceritem-box-blog-date span.mon {
+  font-size: 18px;
+}
+
+.influenceritem-box-blog-date span.day {
+  font-size: 16px;
+}
+
+.influenceritem-box-blog-body {
+  padding: 10px;
+}
+
+.influenceritem-heading-blog a h5 {
+  margin: 0;
+  line-height: 1;
+  text-decoration:none;
+  transition: color 0.3s;
+}
+
+.influenceritem-box-blog-heading a {
+    text-decoration: none;
+}
+
+.influenceritem-box-blog-data p {
+  font-size: 13px;
+}
+
+.influenceritem-box-blog-data p i {
+  font-size: 12px;
+}
+
+.influenceritem-box-blog-text {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.influencermt-10 {
+  float: left;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+.influencerbtn.influencerbg-blue-ui.influencerwhite.influencerread {
+  cursor: pointer;
+  padding: 4px 20px;
+  float: left;
+  margin-top: 10px;
+}
+
+.influencerbtn.influencerbg-blue-ui.influencerwhite.influencerread:hover {
+  box-shadow: 0px 5px 15px inset #4d5f77;
+}
